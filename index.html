@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+     <link rel="stylesheet" href="style.css">
+     <!-- font awesome -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>socialBook</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <ul>
+                <li> <i class="far fa-bell"></i> </li>
+                <li> <i class="far fa-envelope"></i> </li> 
+                <li> <i class="fas fa-tv"></i> </li> 
+                
+            </ul>
+            
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="Search Icon">
+                <input type="text" placeholder="Search">
+            </div>
+            
+            <div class="nav-user-icon  online " onclick="settingsMenuToggle()">
+                <img src="img/image-anne.jpg" alt="" >
+            </div>
+        </div>
+        <!-- ---------------settings-menu-------------- -->
+
+        <div class="settings-menu">
+            <div id="dark-btn" >
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/image-anne.jpg" alt="">
+                    <div>
+                        <p>Doaa Abdelha</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <i class="fas fa-comment-dots dots"></i>
+
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <i class="fas fa-cogs settings-icon"></i>
+                    <a href="#">Settings & Privacy  <i class="fas fa-caret-right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-question-circle settings-icon"></i>
+                    <a href="#">Help & Support  <i class="fas fa-caret-right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-tv settings-icon"></i>
+                    <!-- <i class="fas fa-caret-right"></i> -->
+
+                    <a href="#">Display & Accessibility  <i class="fas fa-caret-right"></i></a>
+                </div>
+                <div class="settings-links">
+                    <i class="fas fa-sign-out-alt settings-icon"></i>
+                    <a href="#">Logout  <i class="fas fa-caret-right"></i></a>
+                </div>
+                
+            </div>
+          
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!-- ---------------left-sidebar--------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><i class="fas fa-newspaper"></i> Latest News </a>
+                <a href="#"><i class="fas fa-user-friends"></i> Friends </a>
+                <a href="#"><i class="fas fa-users"></i> Group </a>
+                <a href="#"><i class="fas fa-store"></i> Marketplace </a>
+                <a href="#"><i class="fas fa-tv"></i> Watch </a>
+                <a href="#">See More</a>
+            </div>
+            
+         <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="img/person-1.jpg" alt="">Web Developers</a>
+            <a href="#"><img src="img/person-3.jpg" alt="">Web Design course</a>
+            <a href="#"><img src="img/person-4.jpg" alt="">Full Stack Developers</a>
+            <a href="#"><img src="img/person-5.jpg" alt="">Website Experts</a>
+         </div>
+        </div>
+                <!-- ---------------main-content--------------- -->
+                <div class="main-content">
+                    <div class="story-gallery">
+                        <div class="story story1">
+                            <img src="img/add-story.png" alt="">
+                            <p>Post story</p>
+                        </div>
+                        
+                        <div class="story story2">
+                            <img src="img/person-1.jpg" alt="">
+                            <p>Alison</p>
+                        </div>
+                        <div class="story story3">
+                            <img src="img/person-3.jpg" alt="">
+                            <p>Jackson</p>
+                        </div>
+                        <div class="story story4">
+                            <img src="img/image-anne.jpg" alt="">
+                            <p>Samonay</p>
+                        </div>
+                        <div class="story story5">
+                            <img src="img/person-5.jpg" alt="">
+                            <p>Jone Doe</p>
+                        </div>
+                    </div>
+                
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="img/image-anne.jpg" alt="">
+                            <div>
+                                <p>Doaa Abdelhai</p>
+                                <small class="down">Public <i class="fas fa-caret-down "></i> </small>
+                            </div>
+                        </div>
+                
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><i class="fas fa-video video"></i> Live Video </a>
+                                <a href="#"><i class="fas fa-camera camera" ></i> Photo/Video </a>
+                                <a href="#"><i class="fas fa-smile smile"></i> Feeling/Activity </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="img/person-5.jpg" alt="">
+                                <div>
+                                    <p>Doaa Abdelhai</p>
+                                    <span>June 24 2021 , 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Lorem ipsum dolor sit
+                            <span> amet consectetur,</span>
+                            Palestine, a land that holds a long history of struggle and sacrifices, is one of the oldest inhabited territories in the world. Palestine boasts a rich cultural and historical legacy that spans thousands of years, having been the cradle of many great civilizations that left their marks on human culture.                            ! <a href="#">#Palestine  </a> <a href="#">#free Palestine </a> </p>
+                        <img src="img/p2.jpg" alt="" class="post-img">
+                
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><i class="fas fa-thumbs-up thumbs"></i> 120 </div>
+                                <div><i class="fas fa-comment comment"></i> 45 </div>
+                                <div><i class="fas fa-share share"></i> 20 </div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="img/person-3.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="img/person-5.jpg" alt="">
+                                <div>
+                                    <p>Doaa Abdelhai</p>
+                                    <span>June 24 2021 , 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Lorem ipsum dolor sit
+                            <span> amet consectetur,</span>
+                            Palestine, a land that holds a long history of struggle and sacrifices, is one of the oldest inhabited territories in the world. Palestine boasts a rich cultural and historical legacy that spans thousands of years, having been the cradle of many great civilizations that left their marks on human culture.                            ! <a href="#">#Palestine  </a> <a href="#">#free Palestine </a> </p>
+                        <img src="img/doaa.webp" alt="" class="post-img">
+                
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><i class="fas fa-thumbs-up thumbs"></i> 120 </div>
+                                <div><i class="fas fa-comment comment"></i> 45 </div>
+                                <div><i class="fas fa-share share"></i> 20 </div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="img/person-3.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="img/person-5.jpg" alt="">
+                                <div>
+                                    <p>Doaa Abdelhai</p>
+                                    <span>June 24 2021 , 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Lorem ipsum dolor sit
+                            <span> amet consectetur,</span>
+                            Palestine, a land that holds a long history of struggle and sacrifices, is one of the oldest inhabited territories in the world. Palestine boasts a rich cultural and historical legacy that spans thousands of years, having been the cradle of many great civilizations that left their marks on human culture.                            ! <a href="#">#Palestine  </a> <a href="#">#free Palestine </a> </p>
+                        <img src="img/doaa2.webp" alt="" class="post-img">
+                
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><i class="fas fa-thumbs-up thumbs"></i> 120 </div>
+                                <div><i class="fas fa-comment comment"></i> 45 </div>
+                                <div><i class="fas fa-share share"></i> 20 </div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="img/person-3.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="img/person-5.jpg" alt="">
+                                <div>
+                                    <p>Doaa Abdelhai</p>
+                                    <span>June 24 2021 , 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Lorem ipsum dolor sit
+                            <span> amet consectetur,</span>
+                            Palestine, a land that holds a long history of struggle and sacrifices, is one of the oldest inhabited territories in the world. Palestine boasts a rich cultural and historical legacy that spans thousands of years, having been the cradle of many great civilizations that left their marks on human culture.                            ! <a href="#">#Palestine  </a> <a href="#">#free Palestine </a> </p>
+                        <img src="img/p7.jpg" alt="" class="post-img">
+                
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><i class="fas fa-thumbs-up thumbs"></i> 120 </div>
+                                <div><i class="fas fa-comment comment"></i> 45 </div>
+                                <div><i class="fas fa-share share"></i> 20 </div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="img/person-3.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="img/person-5.jpg" alt="">
+                                <div>
+                                    <p>Doaa Abdelhai</p>
+                                    <span>June 24 2021 , 13:40 pm</span>
+                                </div>
+                            </div>
+                            <a href="#"> <i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                
+                        <p class="post-text">
+                            Lorem ipsum dolor sit
+                            <span> amet consectetur,</span>
+                            Palestine, a land that holds a long history of struggle and sacrifices, is one of the oldest inhabited territories in the world. Palestine boasts a rich cultural and historical legacy that spans thousands of years, having been the cradle of many great civilizations that left their marks on human culture.                            ! <a href="#">#Palestine  </a> <a href="#">#free Palestine </a> </p>
+                        <img src="img/per3.jpg" alt="" class="post-img">
+                
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><i class="fas fa-thumbs-up thumbs"></i> 120 </div>
+                                <div><i class="fas fa-comment comment"></i> 45 </div>
+                                <div><i class="fas fa-share share"></i> 20 </div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="img/person-3.jpg"> <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                  <button type="button " class="load-more-btn">Load More</button>
+                </div>
+                
+                
+                <!-- ---------------right-sidebar--------------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="events">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="events">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing </h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="img/p4.jpg" alt="img" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/person-5.jpg" alt="img">
+
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/person-3.jpg" alt="img">
+
+                </div>
+                <p>Jackson Aston </p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="img/image-anne.jpg" alt="img">
+
+                </div>
+                <p>Samona Rose</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p> made with 💖 by doaaabdelhai  </p>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
